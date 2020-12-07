@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1389401178921530666
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6663230283939603312}
+  - component: {fileID: 65913644590338062}
+  m_Layer: 0
+  m_Name: GameObject 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6663230283939603312
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1389401178921530666}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 447.33, y: 2.02, z: 135.89}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &65913644590338062
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1389401178921530666}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ba303429bf6dcd489303c045ead295f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projection: {fileID: 11400000, guid: d8b2d46f5763c024f9f1cd7210f9a2f5, type: 2}
+  properties:
+  - name: Albedo
+    nameID: 15
+    type: 0
+    color: {r: 0.5588235, g: 0.5588235, b: 0.5588235, a: 1}
+    value: 0
+    enabled: 0
+  tiling: {x: 1, y: 1}
+  offset: {x: 0, y: 0}
+  maskMethod: 0
+  masks: 00000000
+  _TilingOffset: 623
+  _MaskBase: 621
+  _MaskLayers: 622
+  instanceID: -1796
